@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class Vista2Activity extends AppCompatActivity implements View.OnClickListener {
+public class Vista2Activity extends AppCompatActivity {
 
     Button btn_eliminar;
 
@@ -18,13 +18,7 @@ public class Vista2Activity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista2);
 
-        btn_eliminar = (Button) findViewById(R.id.btn_eliminar);
-        btn_eliminar.setOnClickListener(this);
 
-
-
-    @Override
-    public void onClick(View v) {
 
     }
 }
