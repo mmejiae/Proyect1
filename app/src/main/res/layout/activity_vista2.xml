@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_height="175dp"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/usuario"
         />
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="25dp"
-        android:text="Nombre"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#a368ab"
+        android:text="@string/Nombre"
         android:textSize="20dp"/>
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#e3b1ea"
         android:text="Email"
         android:textSize="20dp"/>
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#a368ab"
         android:text="Edad"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#e3b1ea"
         android:text="Celular"
         android:textSize="20dp"/>
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#a368ab"
         android:text="Telefono"
         android:textSize="20dp"/>
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="#e3b1ea"
         android:text="Grupo"
         android:textSize="20dp"/>
 
@@ -45,20 +53,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_marginLeft="20dp"
             android:id="@+id/eliminar"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:text="Eliminar"
+            android:layout_marginLeft="20dp"
             android:onClick="btn_eliminar"
+            android:text="Eliminar"
             />
 
         <Button
-            android:layout_marginLeft="40dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:text="Editar"
-            android:onClick="btn_editar"/>
+            android:layout_marginLeft="40dp"
+            android:onClick="btn_editar"
+            android:text="Editar" />
     </LinearLayout>
 
 
