@@ -22,32 +22,41 @@
        android:orientation="vertical">
 
     <EditText
-        android:layout_width="200dp"
+        android:layout_width="400dp"
         android:layout_height="40dp"
-        android:text="Nombre"
+        android:text="@string/Nombre"
         />
        <EditText
-           android:layout_width="200dp"
+           android:layout_width="400dp"
            android:layout_height="40dp"
-           android:text="Email"
+           android:text="@string/Email"
            />
        <EditText
-           android:layout_width="200dp"
+           android:layout_width="400dp"
            android:layout_height="40dp"
-           android:text="Edad"
+           android:text="@string/Edad"
            />
        <EditText
-           android:layout_width="200dp"
+           android:layout_width="400dp"
            android:layout_height="40dp"
-           android:text="Celular"
+           android:text="@string/Celular"
            />
 
        <EditText
-           android:layout_width="200dp"
+           android:layout_width="400dp"
            android:layout_height="40dp"
-           android:text="Telefono"
-
+           android:text="@string/Telefono"
            />
+       <Spinner
+           android:id="@+id/grupo_spinner"
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:entries="@array/Grupo"
+           android:prompt="@string/Seleccionar_Grupo"
+           android:layout_toRightOf="@+id/txtGrupo"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="15dp"/>
+
    </LinearLayout>
        <Button
            android:id="@+id/btn_guardar"

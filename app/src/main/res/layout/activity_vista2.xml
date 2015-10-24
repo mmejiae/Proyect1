@@ -46,16 +46,21 @@
 
         <Button
             android:layout_marginLeft="20dp"
-            android:id="@+id/btn_eliminar"
+            android:id="@+id/eliminar"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:text="Eliminar"/>
+            android:text="Eliminar"
+            android:onClick="btn_eliminar"
+            />
 
         <Button
             android:layout_marginLeft="40dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:text="Editar"/>
-
+            android:text="Editar"
+            android:onClick="btn_editar"/>
     </LinearLayout>
+
+
+
 </LinearLayout>
