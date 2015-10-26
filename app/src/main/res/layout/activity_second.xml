@@ -26,6 +26,7 @@
         android:layout_height="40dp"
         android:background="#a368ab"
         android:hint="@string/Nombre1"
+        android:inputType="text"
         />
        <EditText
            android:id="@+id/email"
@@ -33,18 +34,23 @@
            android:layout_height="40dp"
            android:background="#e3b1ea"
            android:hint="@string/Email1"
+           android:inputType="textEmailAddress"
+
            />
        <EditText
            android:layout_width="400dp"
            android:layout_height="40dp"
            android:background="#a368ab"
            android:hint="@string/Edad1"
+           android:inputType="number"
+
            />
        <EditText
            android:layout_width="400dp"
            android:layout_height="40dp"
            android:background="#e3b1ea"
            android:hint="@string/Celular1"
+           android:inputType="phone"
            />
 
        <EditText
@@ -52,6 +58,7 @@
            android:layout_height="40dp"
            android:background="#a368ab"
            android:hint="@string/Telefono1"
+           android:inputType="number"
            />
        <Spinner
            android:id="@+id/grupo_spinner"
